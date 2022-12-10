@@ -39,5 +39,5 @@ if __name__ == "__main__":
             if input[0] == 'addx':
                 sprite_position = [x + int(input[1]) for x in sprite_position]
         for i in drawing:
-            print(i)
+            print(' '.join(i))
     read_from_file(file)
